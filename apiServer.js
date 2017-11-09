@@ -19,7 +19,8 @@ app.use(cookieParser());
 
 // APIs
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/MyPortfolio');
+mongoose.connect('mongodb://ccruml20:Cruml3594@ds051595.mlab.com:51595/chase_portfolio_projects');
+// mongoose.connect('mongodb://localhost:27017/MyPortfolio');
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, '# MongoDB - connection error: '));
 //-------------->SET UP SESSIONS<-----------------
